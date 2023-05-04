@@ -1,0 +1,116 @@
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 100;
+	font-display: swap;
+	src: local('Pretendard Thin'), url('./woff2/Pretendard-Thin.woff2') format('woff2'), url('./woff/Pretendard-Thin.woff') format('woff');
+}
+
+*{}
+
+#container { 
+    width: 1000px;
+ }
+
+body {
+    margin: 0;
+    padding: 0;
+        background-image: url('images/limleesang.jpg'); 
+        background-color: #D9E5FF;
+        color: #ffffff;
+}
+
+#header {
+    position: absolute;
+    width: 1920px;
+    height: 80px;
+    background-color: #00000070;
+    z-index: 10000;
+}
+
+#limbus{
+    position: absolute;
+    width: 14%;
+    top: 10px;
+    left: 100px;
+}
+
+#limbuss{
+    position: absolute;
+    width: 2%;
+    top: 10px;
+    left: 65px;
+}
+
+#title{
+    font-family: 'Pretendard';
+    position: fixed;
+    left: 840px;
+    top: 30px;
+    margin: 0; padding: 0;
+    font-size: 80px;
+    background-color: #5e5e5e44;
+    z-index: 1000;
+    color: black;
+}
+
+#small-title{
+    position: absolute;
+    font-family: 'Pretendard';
+    font-size: 29px;
+    height: 600px;
+    top: 100px;
+    left: 790px;
+    /*background-color: rgb(100, 255, 255);*/
+}
+
+#one{
+    position: absolute;
+    font-family: 'Pretendard';
+    width: 700px;
+    height: 600px;
+    top: 150px;
+    left: 950px;
+    font-size: 20px;
+}
+
+#ish{
+    position: absolute;
+    width: 13%;
+    top: 230px;
+    left: 700px;
+}
+
+#ish2 {
+    position: absolute;
+    width: 15%;
+    top: 230px;
+    left: 1000px;
+}
+
+#text{
+    font-family: 'Pretendard';
+    position: absolute;
+    width: 47%;
+    height: 600px;
+    top: 1400px;
+    left: 700px;
+    font-size: 20px;
+    /* background-color: antiquewhite; */
+}
+
+#video{
+    position: absolute;
+    width: 20%;
+    left: 720px;
+    top: 700px;
+}
+
+#text2{
+    font-family: 'Pretendard';
+    position: absolute;
+    top: 1000px;
+    left: 800px;
+    font-size: 20px;
+    background-color: #5e5e5e44;
+}
+

@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url("fonts/Pretendard-Regular.otf") format("opentype");
+}
+/* 웹 상의 폰트 파일을 사용하는 경우 */
+@font-face {
+    font-family: "Cafe24Ssurround";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff") format("woff");
+}
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#container { 
+    width: 100%;
+ }
+
+body {
+    margin: 0;
+    padding: 0;
+       background-image: url('images/limleesang.jpg');
+        background-color: #D9E5FF;
+        color: #ffffff;
+}
+
+#header {
+    position: absolute;
+    width: 1920px;
+    height: 80px;
+    background-color: #00000070;
+    z-index: 10000;
+}
+
+#limbus{
+    position: absolute;
+    width: 14%;
+    top: 10px;
+    left: 100px;
+}
+
+#limbuss{
+    position: absolute;
+    width: 2%;
+    top: 10px;
+    left: 65px;
+}
+
+#dltkd{
+    position: absolute;
+    width: 7%;
+    top: 255px;
+    left: 450px;
+}
+
+#vkdn{
+    position: absolute;
+    width: 7%;
+    top: 255px;
+    left: 600px;
+}
+
+#ehszl{
+    position: absolute;
+    width: 7%;
+    top: 255px;
+    left: 750px;
+}
+
+#fytb{
+    position: absolute;
+    width: 7%;
+    top: 255px;
+    left: 900px;
+}
+
+
+#ahl{
+    position: absolute;
+    width: 7%;
+    top: 255px;
+    left: 1050px;
+}
+
+
+#ghdfn{
+    position: absolute;
+    width: 7%;
+    top: 255px;
+    left: 1200px;
+}
+
+
+#gltm{
+    position: absolute;
+    width: 7%;
+    top: 255px;
+    left: 1350px;
+}
+
+#dltm{
+    position: absolute;
+    width: 7%;
+    top: 420px;
+    left: 525px;
+}
+
+#fhwi{
+    position: absolute;
+    width: 7%;
+    top: 420px;
+    left: 675px;
+}
+
+#eksxp{
+    position: absolute;
+    width: 7%;
+    top: 420px;
+    left: 825px;
+}
+
+#tldzmf{
+    position: absolute;
+    width: 7%;
+    top: 420px;
+    left: 975px;
+}
+
+#dhxl{
+    position: absolute;
+    width: 7%;
+    top: 420px;
+    left: 1125px;
+}
+
+#rmfpr{
+    position: absolute;
+    width: 7%;
+    top: 420px;
+    left: 1275px;
+}
